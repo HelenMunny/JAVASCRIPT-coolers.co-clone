@@ -5,7 +5,7 @@
     -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
-  .item {
+  div {
     height: 18vh;
   }
   .heading {
@@ -27,7 +27,7 @@
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-  .item {
+  div {
     width: 20vw;
     height: 90vh;
   }
@@ -51,6 +51,16 @@
 
 body {
   overflow: hidden;
+}
+
+div {
+  text-align: center;
+}
+
+span {
+  color: white;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.518);
 }
 
 .heading {
@@ -82,23 +92,23 @@ button:hover {
   color: black;
 }
 
-.color-1 {
-  background: red;
+#color-1 {
+  background: #ff0000;
 }
 
-.color-2 {
-  background: blue;
+#color-2 {
+  background: #0000ff;
 }
 
-.color-3 {
-  background: lightcoral;
+#color-3 {
+  background: #000000;
 }
 
-.color-4 {
-  background: lightseagreen;
+#color-4 {
+  background: #ffff00;
 }
 
-.color-5 {
-  background: lightslategrey;
+#color-5 {
+  background: #800000;
 }
 /*# sourceMappingURL=main.css.map */

@@ -22,7 +22,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
-  .item {
+  div {
     height: 18vh;
   }
   .heading {
@@ -44,7 +44,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-  .item {
+  div {
     width: 20vw;
     height: 90vh;
   }
