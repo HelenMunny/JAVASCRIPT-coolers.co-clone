@@ -1,0 +1,46 @@
+@import 'mediaQueries';
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+.heading {
+  padding-left: 5px;
+  color: rgb(45, 69, 189);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+h1 {
+  align-self: center;
+  font-weight: bold;
+}
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(45, 69, 189);
+  text-transform: uppercase;
+  font-weight: bold;
+  background: rgba(151, 169, 187, 0.368);
+}
+button:hover {
+  color: black;
+}
+.color-1 {
+  background: red;
+}
+.color-2 {
+  background: blue;
+}
+.color-3 {
+  background: lightcoral;
+}
+.color-4 {
+  background: lightseagreen;
+}
+.color-5 {
+  background: lightslategrey;
+}

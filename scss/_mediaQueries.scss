@@ -1,0 +1,62 @@
+@mixin mobile {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 750px) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media (min-width: 751px) {
+    @content;
+  }
+}
+
+// applying those media-queries mixins
+@include tablet {
+  .container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .item {
+    height: 18vh;
+  }
+  .heading {
+    height: 10vh;
+    width: 100vw;
+
+    h1 {
+      font-size: 25px;
+    }
+
+    button {
+      font-size: 0.85rem;
+    }
+  }
+}
+
+@include pc {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .item {
+    width: 20vw;
+    height: 90vh;
+  }
+  .heading {
+    height: 10vh;
+
+    h1 {
+      font-size: 35px;
+    }
+
+    button {
+      font-size: 1.1rem;
+    }
+  }
+}

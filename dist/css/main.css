@@ -1,0 +1,104 @@
+@media (max-width: 750px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .item {
+    height: 18vh;
+  }
+  .heading {
+    height: 10vh;
+    width: 100vw;
+  }
+  .heading h1 {
+    font-size: 25px;
+  }
+  .heading button {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 751px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .item {
+    width: 20vw;
+    height: 90vh;
+  }
+  .heading {
+    height: 10vh;
+  }
+  .heading h1 {
+    font-size: 35px;
+  }
+  .heading button {
+    font-size: 1.1rem;
+  }
+}
+
+* {
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.heading {
+  padding-left: 5px;
+  color: #2d45bd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+}
+
+h1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-weight: bold;
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2d45bd;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: rgba(151, 169, 187, 0.368);
+}
+
+button:hover {
+  color: black;
+}
+
+.color-1 {
+  background: red;
+}
+
+.color-2 {
+  background: blue;
+}
+
+.color-3 {
+  background: lightcoral;
+}
+
+.color-4 {
+  background: lightseagreen;
+}
+
+.color-5 {
+  background: lightslategrey;
+}
+/*# sourceMappingURL=main.css.map */
